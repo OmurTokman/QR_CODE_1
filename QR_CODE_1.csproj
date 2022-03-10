@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MessagingToolkit.QRCode" Version="1.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SolidWorks.Interop.sldworks">
+      <HintPath>..\..\..\..\..\Program Files\SOLIDWORKS Corp\SOLIDWORKS\CircuitWorksFull\solidworks.interop.sldworks.dll</HintPath>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swconst">
+      <HintPath>..\..\..\..\..\Program Files\SOLIDWORKS Corp\SOLIDWORKS\CircuitWorksFull\solidworks.interop.swconst.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
